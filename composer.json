@@ -10,6 +10,6 @@
     },
     "require": {
         "php": ">=5.4",
-		"zhixue/zhixue-http" : "1.0"
+		"yurunsoft/yurun-http" : "~3.0"
     }
 }
