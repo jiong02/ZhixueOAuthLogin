@@ -5,11 +5,11 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Yurun\\OAuthLogin\\": "src/"
+            "Zhixue\\OAuthLogin\\": "src/"
         }
     },
     "require": {
         "php": ">=5.4",
-		"zhixue/zhixue-http" : "~3.0"
+		"zhixue/zhixue-http" : "1.0"
     }
 }
