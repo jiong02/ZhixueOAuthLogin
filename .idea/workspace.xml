@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db3484a5-fce0-495a-b14d-4b87cf14f235" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ApiException.php" afterPath="$PROJECT_DIR$/src/ApiException.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Baidu/OAuth2.php" afterPath="$PROJECT_DIR$/src/Baidu/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Base.php" afterPath="$PROJECT_DIR$/src/Base.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CSDN/OAuth2.php" afterPath="$PROJECT_DIR$/src/CSDN/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Coding/OAuth2.php" afterPath="$PROJECT_DIR$/src/Coding/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Gitee/OAuth2.php" afterPath="$PROJECT_DIR$/src/Gitee/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Github/OAuth2.php" afterPath="$PROJECT_DIR$/src/Github/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/OSChina/OAuth2.php" afterPath="$PROJECT_DIR$/src/OSChina/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QQ/OAuth2.php" afterPath="$PROJECT_DIR$/src/QQ/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QQ/OpenidMode.php" afterPath="$PROJECT_DIR$/src/QQ/OpenidMode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Weibo/OAuth2.php" afterPath="$PROJECT_DIR$/src/Weibo/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Weixin/OAuth2.php" afterPath="$PROJECT_DIR$/src/Weixin/OAuth2.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Weixin/OpenidMode.php" afterPath="$PROJECT_DIR$/src/Weixin/OpenidMode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Baidu/callback.php" afterPath="$PROJECT_DIR$/test/Baidu/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Baidu/login.php" afterPath="$PROJECT_DIR$/test/Baidu/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Baidu/loginAgent.php" afterPath="$PROJECT_DIR$/test/Baidu/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CSDN/callback.php" afterPath="$PROJECT_DIR$/test/CSDN/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CSDN/login.php" afterPath="$PROJECT_DIR$/test/CSDN/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CSDN/loginAgent.php" afterPath="$PROJECT_DIR$/test/CSDN/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/CSDN/password_login.php" afterPath="$PROJECT_DIR$/test/CSDN/password_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Coding/callback.php" afterPath="$PROJECT_DIR$/test/Coding/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Coding/common.php" afterPath="$PROJECT_DIR$/test/Coding/common.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Coding/login.php" afterPath="$PROJECT_DIR$/test/Coding/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Coding/loginAgent.php" afterPath="$PROJECT_DIR$/test/Coding/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Gitee/callback.php" afterPath="$PROJECT_DIR$/test/Gitee/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Gitee/login.php" afterPath="$PROJECT_DIR$/test/Gitee/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Gitee/loginAgent.php" afterPath="$PROJECT_DIR$/test/Gitee/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Gitee/password_login.php" afterPath="$PROJECT_DIR$/test/Gitee/password_login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Github/callback.php" afterPath="$PROJECT_DIR$/test/Github/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Github/login.php" afterPath="$PROJECT_DIR$/test/Github/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Github/loginAgent.php" afterPath="$PROJECT_DIR$/test/Github/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/OSChina/callback.php" afterPath="$PROJECT_DIR$/test/OSChina/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/OSChina/login.php" afterPath="$PROJECT_DIR$/test/OSChina/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/OSChina/loginAgent.php" afterPath="$PROJECT_DIR$/test/OSChina/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/QQ/callback.php" afterPath="$PROJECT_DIR$/test/QQ/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/QQ/login.php" afterPath="$PROJECT_DIR$/test/QQ/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/QQ/loginAgent.php" afterPath="$PROJECT_DIR$/test/QQ/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Swoole/qq.php" afterPath="$PROJECT_DIR$/test/Swoole/qq.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weibo/callback.php" afterPath="$PROJECT_DIR$/test/Weibo/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weibo/login.php" afterPath="$PROJECT_DIR$/test/Weibo/login.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weibo/loginAgent.php" afterPath="$PROJECT_DIR$/test/Weibo/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weixin/callback.php" afterPath="$PROJECT_DIR$/test/Weixin/callback.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weixin/loginAgent.php" afterPath="$PROJECT_DIR$/test/Weixin/loginAgent.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weixin/loginPC.php" afterPath="$PROJECT_DIR$/test/Weixin/loginPC.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weixin/loginWeixin.php" afterPath="$PROJECT_DIR$/test/Weixin/loginWeixin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/Weixin/mini.php" afterPath="$PROJECT_DIR$/test/Weixin/mini.php" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="OAuth2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QQ/OAuth2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Base.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Base.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4860">
+              <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OpenidMode.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/QQ/OpenidMode.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Coding/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiException.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ApiException.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="callback.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Baidu/callback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OAuth2.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Weibo/OAuth2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding>
+                <element signature="e#42#69#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="callback.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/Coding/callback.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Yurun</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Zhixue</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>D:\phpStudy\PHPTutorial\WWW\YurunOAuthLogin\src</dir>
+      <dir>D:\phpStudy\PHPTutorial\WWW\YurunOAuthLogin\test</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Base.php" />
+        <option value="$PROJECT_DIR$/src/QQ/OpenidMode.php" />
+        <option value="$PROJECT_DIR$/src/ApiException.php" />
+        <option value="$PROJECT_DIR$/test/Baidu/callback.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YurunOAuthLogin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YurunOAuthLogin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YurunOAuthLogin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YurunOAuthLogin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YurunOAuthLogin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="YurunOAuthLogin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db3484a5-fce0-495a-b14d-4b87cf14f235" name="Default" comment="" />
+      <created>1539844745357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1539844745357</updated>
+      <workItem from="1539844746961" duration="1723000" />
+      <workItem from="1539848370187" duration="79000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1802000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25375536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/QQ/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QQ/OpenidMode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Coding/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weibo/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#42#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Coding/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Baidu/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QQ/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Weibo/OAuth2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding>
+            <element signature="e#42#69#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Coding/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QQ/OpenidMode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="7" lean-forward="false" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Coding/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/Baidu/callback.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="13" column="2" lean-forward="true" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ApiException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Base.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4860">
+          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
